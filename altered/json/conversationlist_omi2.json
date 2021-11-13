@@ -1,0 +1,57 @@
+[
+    {
+        "id":"fms_2b",
+        "message":"*shouts* Hey, slackers! You're moving now. It's an order. Prepare yourselves, we are going to the Elm mine, our general needs us!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fms_3"
+            }
+        ]
+    },
+    {
+        "id":"fms_3",
+        "message":"I'll lead the way. Thank you kid, now go back to the village. It's safer there.",
+        "replies":[
+            {
+                "text":"I can handle myself, thanks.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Be careful, I heard mountain wolves are a trouble for Feygard soldiers.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"I will. Bye.",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":47
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion_guard3",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion_guard3a",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion_guard5",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion_guard6",
+                "mapName":"blackwater_mountain10"
+            }
+        ]
+    }
+]
