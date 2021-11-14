@@ -128,7 +128,7 @@
  </layer>
  <layer name="Objects" width="19" height="30">
   <data encoding="base64" compression="zlib">
-   eJytlTtPwzAQx10nqmiTiEwIhKpuoAJfgJGhDHSgj4GpVXlkpxXqhgRiQKwMDHwTPgEMTJWQGJgYQGpVMTAghgJn+Sw/miZN6UmnxLH9899355gQaYFPSMYhpOfy9jG0Sz5/JrFqmpAaeAvmVdBPFNaiTciSHc/ZoDDek1qOgPmYnU5XETjbyDpD1suUrDpwGp7Uto/7VVmVNI+DapepaG7H47oG1qiuInxbp7x/nDE9QhszNnYYwmJWtcaztqi+T8Fac3SWqJODCFaNynfBE2NNXQXgtyNYAeUxVb2NrrJaRr9qh6in78pvLO4E6rFg87kqi83/zsqxTV9vR1ne1lmdednH1g+ruZwSr56r94Xlcc6RfWLOssIoWaNr9FzJOlfOqHpWM87ovBtL8vKKNsZqgO8YvhtxrvZ8XVsd1nu3wvW0JzijLG6btvQvS+b4FGu47+ox/HH0WCUxh+qsMM4drntrnPtrpf2B73H/oTfYzwP4Ez4H6MKugPM7IeseGeI5RG96PG7CJ2Gp6wsLcGw5pK6S/mtZzp4xjw9GzSVhBcq4pLo+IRZd8AXlzupgbi+M3MbpsoDxCqwV4/4TtVpOoGsVWV3MVQra1OD+9y43LUdnx5qlrjjWH2m9giU=
+   eJytlTtPAkEQx5e9CxHuLl5lNIbQaVC/gKUFFlLIo7CC4INeiKEzwVgYWwsLv4mfQAorEhMLKwtNIMTCwligzmZnsw+OOw6ZZHK3t7u//e/M7C0h0joeISmHkL7L26c+IQWfP+NYOUlIBbwJ80roZwpr2SZkxY7mbFEY70ktJ8B8TM+mKw+cXWR1kPUyI6sKnJontR3iflVWKcnjoNpVIpzb9riuoTWuKw/fNinvn2RMj9DGjI0dBbCYla3JrB2q71OwNhydJerkKIRVofJd8MRYU1cO+K0QVoPymKreQldZTaNftWPUM3DlNxZ3AvWYs/lclcXmf6fl2Lqvt8Msa+us9qLsY+sH1VxGiVff1fuC8rjgyD4xZ1VhFKzxNfquZF0oZ1Q9qylnfN6tJXlZRRtj1cD3DN8POVcHvq6tCuu9W8F6WlOcURa3bVv6lyVzfI41PHD1GP44eqzimEN1VhDnHte9M879jdL+wPeo/9Ab7KcL/oTPIbqwa+D8Tsl6QIZ4jtDrHo+b8GlY6vrCGji2GFBXcf+1LGfPmMeuUXNxWA1lXFxdnxCLHviScme1MbeXRm6jdFnAeAXWmnH/iVotxtC1jqwe5ioBbWpw/3uXm5ah82PNU1cU6w8+b4I9
   </data>
  </layer>
  <layer name="Above" width="19" height="30">
@@ -136,9 +136,19 @@
    eJxjYICAcAEGvICDhYGBkwW/GhBIB5qTRsAsYgEhN4HAcWYGhhPMhNX58jIw+PFS7iYQIMZdpJhFLbdR2ywQoIZ51Awv9LQVxAahS4F0GRCXs5FuZqoAKj2cQDqV0yq1gCwT9czCBQY6PkkJL0LxhM+s58wIDAKEyl90syhJ/7jMIgdg8yO55lG7jAaB7VQqVy8h1VcfgexPRNRf+NyFbha55g0EoFf5BAAFRR07
   </data>
  </layer>
- <layer name="Walkable" width="19" height="30" visible="0">
+ <layer name="Above_2" width="19" height="30">
   <data encoding="base64" compression="zlib">
-   eJzN00EOwCAIRFGP4KW4/5W6cWEMUvxMWidhyWszQeut2Zgo1s9HZa17FTOylP9FO9pZGXPdr/TlWbuc9qS8DTpRt173JGS38r3ZeOuZWF5vCouY5G1RJ+Or7vEmi3al7F1lZaNy/rCy7i339aX1ABTBbJQ=
+   eJxjYBgFo2AUjIJRMApGwSgYngAACOgAAQ==
+  </data>
+ </layer>
+ <layer name="Walkable" width="19" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzN08ENwCAMQ1FG6FLsv1KvKErA/VgUS7mVV2SF/rTWw2SJ3yhThTqO+80s571oR5WlmPH8Tl+ZVeVrT87doDPrNuuehJzd+d9orHomVtabwyImeVvUUXzXPt5k0a6cvbssNS7nD0t1b9mvk9YL9bBtPg==
+  </data>
+ </layer>
+ <layer name="Walkable_2" width="19" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYngAACOgAAQ==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -161,6 +171,22 @@
     <property name="place" value="west"/>
    </properties>
   </object>
+  <object name="ehrenfest_selector_3" type="script" x="512" y="320" width="32" height="160">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="160" y="0" width="160" height="32">
+   <properties>
+    <property name="map" value="elm_mine2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="ortholion_celebration" type="script" x="544" y="320" width="32" height="64">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="arghest" type="spawn" x="64" y="384" width="160" height="128">
@@ -170,4 +196,15 @@
   </object>
  </objectgroup>
  <objectgroup name="Keys"/>
+ <objectgroup name="Replace">
+  <object name="bwm72_beginning:22" type="replace" x="256" y="288" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_2"/>
+    <property name="Walkable" value="Walkable_2"/>
+    <property name="requireId" value="bwm72_beginning"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="22"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
