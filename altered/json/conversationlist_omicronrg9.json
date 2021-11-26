@@ -1,0 +1,60 @@
+[
+    {
+        "id":"troublemaker_guild_7",
+        "message":"So you will be the intermediary this time, collecting our spies' journals and bringing them to me.",
+        "replies":[
+            {
+                "text":"Sounds easy, I'll do it.",
+                "nextPhraseID":"troublemaker_guild_8a"
+            },
+            {
+                "text":"That's not my favorite kind of job, but I will bring them.",
+                "nextPhraseID":"troublemaker_guild_8a"
+            },
+            {
+                "text":"No, I'm too strong to be just a mere broker.",
+                "nextPhraseID":"troublemaker_guild_8b"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild03_30",
+        "message":"Take 4000 gold coins, and some bottles of my favorite mead.\nNow you deserve a good rest, my friend. You have earned the trust of the Thieves Guild.",
+        "replies":[
+            {
+                "text":"I'll be back soon.",
+                "nextPhraseID":"umar_guild03_31a"
+            },
+            {
+                "text":"Count me in for the next job.",
+                "nextPhraseID":"umar_guild03_31b"
+            },
+            {
+                "text":"OK, bye.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves03",
+                "value":50
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":4000
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"mead",
+                "value":10
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"ThievesGuild",
+                "value":20
+            }
+        ]
+    }
+]

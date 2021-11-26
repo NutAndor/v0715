@@ -1,0 +1,30 @@
+[
+    {
+        "id":"brv_teacher_102_10",
+        "message":"You killed Golin! You actually killed him! I don't believe it!",
+        "replies":[
+            {
+                "text":"Eh...",
+                "nextPhraseID":"brv_teacher_102_20"
+            },
+            {
+                "text":"It was an accident, tragic.",
+                "nextPhraseID":"brv_teacher_102_20"
+            },
+            {
+                "text":"Your little favorite provoked me.",
+                "nextPhraseID":"brv_teacher_102_20"
+            }
+        ]
+    },
+    {
+        "id":"golin_40",
+        "message":"It's about time. This is my favorite class.",
+        "replies":[
+            {
+                "text":"What will happen now?",
+                "nextPhraseID":"golin_40_10"
+            }
+        ]
+    }
+]
