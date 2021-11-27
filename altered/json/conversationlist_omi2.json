@@ -114,5 +114,20 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"bwm_wellspring_2a",
+        "message":"You fill the bottle with water.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":12
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"bwm_wellspring1"
+            }
+        ]
     }
 ]
