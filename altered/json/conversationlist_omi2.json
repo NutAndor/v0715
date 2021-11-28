@@ -129,5 +129,23 @@
                 "rewardID":"bwm_wellspring1"
             }
         ]
+    },
+    {
+        "id":"ehrenfest_1b2",
+        "message":"I'll let it go. But tell me, what is it that you find so urgent?",
+        "replies":[
+            {
+                "text":"I don't trust you with something this important, so nothing.",
+                "nextPhraseID":"ehrenfest_2a"
+            },
+            {
+                "text":"I have information related to recent disappearances.",
+                "nextPhraseID":"ehrenfest_2b"
+            },
+            {
+                "text":"Sorry, it's important, so I must go.",
+                "nextPhraseID":"ehrenfest_2a"
+            }
+        ]
     }
 ]
